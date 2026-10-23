@@ -9,7 +9,7 @@ h1 {
     margin-bottom: 20px;
 }
 p {
-    font-size: 20px;
+    font-size: 40px;
     line-height: 1.5;
 }
 
@@ -22,17 +22,17 @@ p {
     padding: 0 20px;
 }
 .hero img {
-    width: 300px;           /* Жестко задаем ширину */
-    height: 300px;          /* Жестко задаем ТАКУЮ ЖЕ высоту (для круга) */
-    object-fit: cover;      /* ВАЖНО: картинка заполнит квадрат, обрезав лишнее, но не сплющится */
-    border-radius: 50%;     /* Теперь это будет идеальный круг */
+    width: 300px;          
+    height: 300px;         
+    object-fit: cover;     
+    border-radius: 50%;     
     box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-    flex-shrink: 0;         /* Запрещаем картинке сжиматься, если экран маленький */
+    flex-shrink: 0;         
 }
 .text {
     text-align: left;
 }
 .text h1 {
-    font-size: 36px;
+    font-size: 50px;
     margin-bottom: 15px;
 }
