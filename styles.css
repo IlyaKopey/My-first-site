@@ -22,10 +22,12 @@ p {
     padding: 0 20px;
 }
 .hero img {
-    width: 300px;
-    height: auto;
-    border-radius: 20px;
+    width: 300px;           /* Жестко задаем ширину */
+    height: 300px;          /* Жестко задаем ТАКУЮ ЖЕ высоту (для круга) */
+    object-fit: cover;      /* ВАЖНО: картинка заполнит квадрат, обрезав лишнее, но не сплющится */
+    border-radius: 50%;     /* Теперь это будет идеальный круг */
     box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    flex-shrink: 0;         /* Запрещаем картинке сжиматься, если экран маленький */
 }
 .text {
     text-align: left;
