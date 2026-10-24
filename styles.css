@@ -36,3 +36,35 @@ p {
     font-size: 50px;
     margin-bottom: 15px;
 }
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+.btn {
+    padding: 12px 24px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.about {
+    max-width: 800px;
+    margin: 80px auto;
+    text-align: center;
+    padding: 0 20px;
+
+}
+.about h2 {
+    font-size: 32px;
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6px;
+}
